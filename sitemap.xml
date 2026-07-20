@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ============ PAGE PRINCIPALE ============ -->
+  <url>
+    <loc>https://rhumsevent.com/</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rhumsevent.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr-RE" href="https://rhumsevent.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rhumsevent.com/"/>
+
+    <image:image>
+      <image:loc>https://rhumsevent.com/assets/hero.jpg</image:loc>
+      <image:title>Rhums Event — DJ et événements prestige à La Réunion</image:title>
+      <image:caption>Rhums Event en prestation lors d'un événement à La Réunion, foule sur la piste sous les guirlandes lumineuses</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://rhumsevent.com/assets/dj-sunset.jpg</image:loc>
+      <image:title>Rhums Event coucher de soleil bord de mer La Réunion</image:title>
+      <image:caption>Prestation Rhums Event au coucher de soleil pour un événement en bord de mer</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://rhumsevent.com/assets/dancefloor.jpg</image:loc>
+      <image:title>Piste de danse pleine événement La Réunion</image:title>
+      <image:caption>Dancefloor animé par Rhums Event lors d'un événement à La Réunion</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://rhumsevent.com/assets/srv-son.jpg</image:loc>
+      <image:title>Sonorisation professionnelle événement Réunion</image:title>
+      <image:caption>Matériel de sonorisation professionnel fourni par Rhums Event</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://rhumsevent.com/assets/srv-lumiere.jpg</image:loc>
+      <image:title>Éclairage événementiel prestige Réunion</image:title>
+      <image:caption>Éclairage professionnel pour événement haut de gamme à La Réunion</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://rhumsevent.com/assets/srv-pyro.jpg</image:loc>
+      <image:title>Pyrotechnie étincelles froides événement Réunion</image:title>
+      <image:caption>Machines à étincelles froides et fumée pour moments forts</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============ MENTIONS LÉGALES ============ -->
+  <url>
+    <loc>https://rhumsevent.com/mentions-legales.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+</urlset>
