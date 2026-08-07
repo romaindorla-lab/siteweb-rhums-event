@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>Rhums Event — DJ Mariage & Événements Prestige · Réunion 974</title>
-  <meta name="description" content="Rhums Event, fondée par DJ Rhums, spécialiste des événements de prestige à La Réunion (974) : mariages, soirées privées, anniversaires, sorties en mer, boîtes de nuit. DJ, son, lumière et effets — tout est apporté, tout est géré. Réponse sous 24h.">
+  <meta name="description" content="Rhums Event (DJ Rhums) : DJ événements prestige à La Réunion. Mariages, soirées privées, sorties en mer. Son, lumière, effets inclus. Réponse sous 24h.">
   <meta name="keywords" content="Rhums Event, Rhumsevent, Rhums event, DJ Rhums, DJ Rhum's, DJ Rhums La Réunion, DJ mariage La Réunion, DJ mariage 974, DJ soirée privée Réunion, DJ soirée prestige Réunion, DJ anniversaire Réunion, DJ soirée yacht Réunion, DJ boîte de nuit Réunion, DJ club Réunion, événement prestige Réunion, DJ événement La Réunion 974, animation soirée Réunion, DJ mariage Saint-Gilles, DJ mariage Saint-Pierre, DJ mariage Saint-Denis, soirée de luxe Réunion, Romain Dorla">
   <meta name="author" content="Rhums Event — Romain Dorla">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -60,7 +60,7 @@
         "telephone": "+262693815686",
         "email": "rhumsevent974@gmail.com",
         "image": "https://rhumsevent.com/assets/hero.jpg",
-        "logo": "https://rhumsevent.com/assets/logo-djrhums.png",
+        "logo": "https://rhumsevent.com/assets/logo-rhums-event.png",
         "foundingDate": "2018",
         "priceRange": "€€€",
         "currenciesAccepted": "EUR",
@@ -77,6 +77,8 @@
           {"@type": "City", "name": "Cilaos"}
         ],
         "sameAs": ["https://www.instagram.com/rhumsevent/", "https://www.tiktok.com/@romaindorla_", "https://www.facebook.com/djrhums"],
+        "founder": {"@id": "https://rhumsevent.com/#person"},
+        "knowsAbout": ["DJ mariage", "DJ soirée privée", "DJ anniversaire", "DJ sortie en mer", "DJ boîte de nuit", "DJ événement corporate", "sonorisation événementielle", "éclairage événementiel", "artistes locaux réunionnais"],
         "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "3", "bestRating": "5", "worstRating": "1"},
         "review": [
           {"@type": "Review", "author": {"@type": "Person", "name": "Matys Louise"}, "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}, "reviewBody": "J'ai eu l'occasion de travailler avec ce DJ et organisateur événementiel, et je recommande à 100%. Très professionnel, à l'écoute et parfaitement organisé, il a su créer une ambiance exceptionnelle du début à la fin."},
@@ -89,8 +91,12 @@
           "itemListElement": [
             {"@type": "Offer", "name": "DJ Mariage La Réunion", "description": "Animation DJ complète pour mariage : cocktail, dîner, moment fort, soirée dansante."},
             {"@type": "Offer", "name": "DJ Soirée Privée & Anniversaire Réunion", "description": "Animation DJ sur mesure pour vos soirées privées, anniversaires et événements entre proches."},
+            {"@type": "Offer", "name": "DJ Sortie en Mer & Yacht Réunion", "description": "Animation DJ pour sorties et soirées en mer à bord d'un yacht à La Réunion."},
+            {"@type": "Offer", "name": "DJ Boîte de Nuit & Club Réunion", "description": "Prestation DJ pour soirées en boîte de nuit et club à La Réunion."},
+            {"@type": "Offer", "name": "DJ Événement Corporate Réunion", "description": "Animation DJ pour événements d'entreprise haut de gamme à La Réunion."},
             {"@type": "Offer", "name": "Son & Lumière Événementiel Réunion", "description": "Sonorisation et éclairage professionnels, matériel apporté et installé, calibrés selon votre lieu en 974."},
-            {"@type": "Offer", "name": "Pyrotechnie Événement Réunion", "description": "Étincelles froides et fumée lourde pour vos moments forts."}
+            {"@type": "Offer", "name": "Pyrotechnie Événement Réunion", "description": "Étincelles froides et fumée lourde pour vos moments forts."},
+            {"@type": "Offer", "name": "Artiste Local en Live Réunion", "description": "Intervention live d'artistes réunionnais reconnus pendant votre événement, sur demande."}
           ]
         }
       },
@@ -98,10 +104,12 @@
         "@type": "Person",
         "@id": "https://rhumsevent.com/#person",
         "name": "Romain Dorla",
+        "alternateName": ["DJ Rhums", "DJ Rhum's", "DJ RHUMS"],
         "jobTitle": "Fondateur — spécialiste événements prestige",
         "description": "DJ réunionnais, fondateur de Rhums Event et CEO de Cosmopolite Event. Spécialiste des événements haut de gamme à La Réunion : mariages, soirées privées, anniversaires, sorties en mer.",
         "sameAs": ["https://www.instagram.com/rhumsevent/"],
-        "worksFor": {"@id": "https://rhumsevent.com/#business"}
+        "worksFor": {"@id": "https://rhumsevent.com/#business"},
+        "knowsAbout": ["DJ mariage La Réunion", "DJ événementiel", "animation soirée prestige"]
       },
       {
         "@type": "WebSite",
@@ -505,7 +513,10 @@
     <!-- HERO -->
     <section class="hero" id="accueil" aria-labelledby="hero-title">
       <div class="hero-photo" aria-hidden="true">
-        <img src="assets/hero.jpg" alt="Rhums Event en prestation lors d'un événement à La Réunion, foule en train de danser sous les guirlandes lumineuses au bord de mer" fetchpriority="high">
+        <picture>
+          <source srcset="assets/hero.webp" type="image/webp">
+          <img src="assets/hero.jpg" alt="Rhums Event en prestation lors d'un événement à La Réunion, foule en train de danser sous les guirlandes lumineuses au bord de mer" fetchpriority="high">
+        </picture>
       </div>
       <div class="hero-overlay" aria-hidden="true"></div>
       <div class="hero-grain" aria-hidden="true"></div>
@@ -538,7 +549,7 @@
             <p class="promise-body" style="margin-top:14px;">Nous ne sommes pas une équipe qui « fait aussi des événements ». Nous avons forgé notre expertise sur <strong>800+ prestations</strong> à La Réunion et à l'international. Cette maîtrise garantit qu'au jour J, quoi qu'il arrive, nous gérons. Calmes. Professionnels. Structure légale déclarée.</p>
           </div>
           <div class="fi d2">
-            <div class="promise-photo"><img src="assets/dance-joy.jpg" alt="Invités riant et dansant lors d'un événement animé par Rhums Event à La Réunion" loading="lazy"></div>
+            <div class="promise-photo"><picture><source srcset="assets/dance-joy.webp" type="image/webp"><img src="assets/dance-joy.jpg" alt="Invités riant et dansant lors d'un événement animé par Rhums Event à La Réunion" loading="lazy"></picture></div>
           </div>
         </div>
       </div>
@@ -554,7 +565,7 @@
         </header>
         <div class="services-grid">
           <article class="srv fi">
-            <div class="srv-thumb"><img src="assets/srv-dj.jpg" alt="Mains d'un DJ de Rhums Event sur une table de mixage lors d'un événement" loading="lazy"></div>
+            <div class="srv-thumb"><picture><source srcset="assets/srv-dj.webp" type="image/webp"><img src="assets/srv-dj.jpg" alt="Mains d'un DJ de Rhums Event sur une table de mixage lors d'un événement" loading="lazy"></picture></div>
             <div class="srv-body">
               <p class="srv-num">01</p>
               <h3 class="srv-title">DJ &amp; Animation</h3>
@@ -564,7 +575,7 @@
             </div>
           </article>
           <article class="srv fi d1">
-            <div class="srv-thumb"><img src="assets/srv-son.jpg" alt="Matériel de sonorisation professionnel apporté par Rhums Event : enceintes et micros sans fil" loading="lazy"></div>
+            <div class="srv-thumb"><picture><source srcset="assets/srv-son.webp" type="image/webp"><img src="assets/srv-son.jpg" alt="Matériel de sonorisation professionnel apporté par Rhums Event : enceintes et micros sans fil" loading="lazy"></picture></div>
             <div class="srv-body">
               <p class="srv-num">02</p>
               <h3 class="srv-title">Son &amp; Matériel</h3>
@@ -574,7 +585,7 @@
             </div>
           </article>
           <article class="srv fi d2">
-            <div class="srv-thumb"><img src="assets/srv-lumiere.jpg" alt="Éclairage événementiel professionnel : projecteurs, lyres et lasers pour événement à La Réunion" loading="lazy"></div>
+            <div class="srv-thumb"><picture><source srcset="assets/srv-lumiere.webp" type="image/webp"><img src="assets/srv-lumiere.jpg" alt="Éclairage événementiel professionnel : projecteurs, lyres et lasers pour événement à La Réunion" loading="lazy"></picture></div>
             <div class="srv-body">
               <p class="srv-num">03</p>
               <h3 class="srv-title">Éclairage</h3>
@@ -584,7 +595,7 @@
             </div>
           </article>
           <article class="srv fi d3">
-            <div class="srv-thumb"><img src="assets/srv-pyro.jpg" alt="Machines à étincelles froides et fumée pour événement à La Réunion" loading="lazy"></div>
+            <div class="srv-thumb"><picture><source srcset="assets/srv-pyro.webp" type="image/webp"><img src="assets/srv-pyro.jpg" alt="Machines à étincelles froides et fumée pour événement à La Réunion" loading="lazy"></picture></div>
             <div class="srv-body">
               <p class="srv-num">04</p>
               <h3 class="srv-title">Pyrotechnie</h3>
@@ -687,7 +698,7 @@
             </div>
           </div>
           <div class="fi d2">
-            <div class="artistes-photo"><img src="assets/artistes-portraits.jpg" alt="Portraits des artistes locaux réunionnais du réseau Rhums Event" loading="lazy"></div>
+            <div class="artistes-photo"><picture><source srcset="assets/artistes-portraits.webp" type="image/webp"><img src="assets/artistes-portraits.jpg" alt="Portraits des artistes locaux réunionnais du réseau Rhums Event" loading="lazy"></picture></div>
           </div>
         </div>
       </div>
@@ -698,7 +709,7 @@
       <div class="wrap">
         <div class="proof-grid">
           <div class="fi">
-            <div class="proof-photo"><img src="assets/preuve-collage.jpg" alt="Collage de prestations Rhums Event : club, cocktail, festival et mariage à La Réunion et à l'international" loading="lazy"></div>
+            <div class="proof-photo"><picture><source srcset="assets/preuve-collage.webp" type="image/webp"><img src="assets/preuve-collage.jpg" alt="Collage de prestations Rhums Event : club, cocktail, festival et mariage à La Réunion et à l'international" loading="lazy"></picture></div>
           </div>
           <div class="proof-content fi d2">
             <p class="s-label">Pourquoi nous faire confiance</p>
@@ -733,9 +744,9 @@
       </div>
       <div class="wrap">
         <div class="galerie-mosaic" aria-label="Photos d'événements animés par Rhums Event">
-          <div class="g-item"><img src="assets/soiree-yacht.jpg" alt="Rhums Event en prestation lors d'une soirée privée sur un yacht à La Réunion, clair de lune sur l'océan" loading="lazy"></div>
-          <div class="g-item"><img src="assets/dancefloor.jpg" alt="Piste de danse pleine sous les guirlandes lumineuses lors d'un événement à La Réunion" loading="lazy"></div>
-          <div class="g-item"><img src="assets/dj-silhouette.jpg" alt="Silhouette d'un DJ de Rhums Event en pleine prestation sous jeux de lumières bleus" loading="lazy"></div>
+          <div class="g-item"><picture><source srcset="assets/soiree-yacht.webp" type="image/webp"><img src="assets/soiree-yacht.jpg" alt="Rhums Event en prestation lors d'une soirée privée sur un yacht à La Réunion, clair de lune sur l'océan" loading="lazy"></picture></div>
+          <div class="g-item"><picture><source srcset="assets/dancefloor.webp" type="image/webp"><img src="assets/dancefloor.jpg" alt="Piste de danse pleine sous les guirlandes lumineuses lors d'un événement à La Réunion" loading="lazy"></picture></div>
+          <div class="g-item"><picture><source srcset="assets/dj-silhouette.webp" type="image/webp"><img src="assets/dj-silhouette.jpg" alt="Silhouette d'un DJ de Rhums Event en pleine prestation sous jeux de lumières bleus" loading="lazy"></picture></div>
         </div>
       </div>
     </section>
